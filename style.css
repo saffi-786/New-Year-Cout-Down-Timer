@@ -27,12 +27,6 @@ h1{
     color: transparent;
 }
 
-@media screen and (max-width: 492px) {
-    h1{
-        text-align: center;
-        margin-top: 4rem;
-    }
-}
 
 span{
     font-weight: bold;
@@ -44,17 +38,6 @@ span{
     justify-content: center;
 }
 
-@media screen and (max-width: 372px) {
-    h1{
-        text-align: center;
-        margin-top: 2rem;
-    }
-
-    .countdown-container{
-        flex-direction: column;
-    }
-    
-}
 
 .big-text{
     font-weight: bold;
@@ -69,4 +52,31 @@ span{
 
 .countdown-el span{
     font-size: 1.3rem;
+}
+
+@media screen and (max-width: 492px) {
+    h1{
+        text-align: center;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 372px) {
+    h1{
+        text-align: center;
+        font-size: 4rem;
+        margin-top: 1.5rem;
+    }
+    
+    .countdown-container{
+        flex-direction: column;
+    }
+
+    .big-text{
+        font-weight: bold;
+        font-size: 5rem;
+        line-height: 1;
+        margin: 1rem 2rem;
+    }
+    
 }
